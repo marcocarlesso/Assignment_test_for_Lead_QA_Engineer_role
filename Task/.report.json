@@ -1,0 +1,1375 @@
+{
+      "created": 1668417346.0169902,
+      "duration": 1.1663365364074707,
+      "exitcode": 1,
+      "root": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task",
+      "environment": {
+            "Python": "3.11.0",
+            "Platform": "Windows-10-10.0.19044-SP0",
+            "Packages": {
+                  "pytest": "7.2.0",
+                  "pluggy": "1.0.0"
+            },
+            "Plugins": {
+                  "html": "3.2.0",
+                  "json-report": "1.5.0",
+                  "metadata": "2.0.4"
+            }
+      },
+      "summary": {
+            "failed": 2,
+            "passed": 42,
+            "total": 44,
+            "collected": 44
+      },
+      "tests": [
+            {
+                  "nodeid": "test_cases.py::test_email",
+                  "lineno": 283,
+                  "outcome": "failed",
+                  "keywords": [
+                        "test_email",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.0005169000360183418,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.008926999988034368,
+                        "outcome": "failed",
+                        "crash": {
+                              "path": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                              "lineno": 289,
+                              "message": "assert 564 == 0"
+                        },
+                        "traceback": [
+                              {
+                                    "path": "test_cases.py",
+                                    "lineno": 289,
+                                    "message": "AssertionError"
+                              }
+                        ],
+                        "longrepr": "def test_email():\n        id_email_test_fail = check_email(\"email\")\n        invalid_email_count = len(id_email_test_fail)\n        if invalid_email_count is not 0:\n            report(id_email_test_fail, \"test_email\", \"test_email_failed_record_ids.json\")\n>       assert invalid_email_count == 0\nE       assert 564 == 0\n\ntest_cases.py:289: AssertionError"
+                  },
+                  "teardown": {
+                        "duration": 0.00027120002778247,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_id_record_duplicate",
+                  "lineno": 292,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_id_record_duplicate",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00019940000493079424,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.5383965999935754,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00024210003903135657,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_category",
+                  "lineno": 300,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_category",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00016350002260878682,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.0032876000041142106,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00020999996922910213,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_currency",
+                  "lineno": 308,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_currency",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00021590001415461302,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.0060947000165469944,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00018220004858449101,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_customer_first_name",
+                  "lineno": 316,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_customer_first_name",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.0001514999894425273,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.005622300028335303,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.0001501999795436859,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_customer_full_name",
+                  "lineno": 324,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_customer_full_name",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014289998216554523,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.008656800026074052,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00018440000712871552,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_customer_gender",
+                  "lineno": 334,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_customer_gender",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014789996203035116,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.003464600013103336,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.0001493000308983028,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_customer_id",
+                  "lineno": 343,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_customer_id",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014670001110062003,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.002708699961658567,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.0001495999749749899,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_customer_last_name",
+                  "lineno": 352,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_customer_last_name",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014160003047436476,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.0064347999868914485,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00018140004249289632,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_customer_phone",
+                  "lineno": 361,
+                  "outcome": "failed",
+                  "keywords": [
+                        "test_customer_phone",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014509999891743064,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.009919999982230365,
+                        "outcome": "failed",
+                        "crash": {
+                              "path": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                              "lineno": 367,
+                              "message": "assert 4675 == 0"
+                        },
+                        "traceback": [
+                              {
+                                    "path": "test_cases.py",
+                                    "lineno": 367,
+                                    "message": "AssertionError"
+                              }
+                        ],
+                        "longrepr": "def test_customer_phone():\n        id_customer_phone_test_fail = check_string_int(\"customer_phone\")\n        invalid_customer_phone_count = len(id_customer_phone_test_fail)\n        if invalid_customer_phone_count is not 0:\n            report(id_customer_phone_test_fail, \"test_customer_phone\", \"test_customer_phone_failed_record_ids.json\")\n>       assert invalid_customer_phone_count == 0\nE       assert 4675 == 0\n\ntest_cases.py:367: AssertionError"
+                  },
+                  "teardown": {
+                        "duration": 0.00020480004604905844,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_day_of_week",
+                  "lineno": 369,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_day_of_week",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014899997040629387,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.004376100027002394,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00016799999866634607,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_day_of_week_i",
+                  "lineno": 377,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_day_of_week_i",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014650000957772136,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.0059554000035859644,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00015380000695586205,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_manufacturer",
+                  "lineno": 385,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_manufacturer",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014349998673424125,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.0033859999966807663,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00017070001922547817,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_order_date",
+                  "lineno": 393,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_order_date",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014479999663308263,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.007065200014039874,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.0001651000347919762,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_order_id",
+                  "lineno": 401,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_order_id",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014750001719221473,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.0037499000318348408,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00015300000086426735,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_base_price",
+                  "lineno": 409,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_base_price",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00023999996483325958,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.008839100017212331,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00019300001440569758,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_discount_percentage",
+                  "lineno": 417,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_discount_percentage",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00016579998191446066,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.0076234000152908266,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.0001742999884299934,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_quantity",
+                  "lineno": 425,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_quantity",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.000146100006531924,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.010464699997100979,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.0001935999607667327,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_tax_amount",
+                  "lineno": 434,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_tax_amount",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00016609998419880867,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.009522399981506169,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.0003142000059597194,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_product_id",
+                  "lineno": 443,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_product_id",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.0003179999766871333,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.010350099997594953,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00023120001424103975,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_taxless_price",
+                  "lineno": 452,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_taxless_price",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00020049995509907603,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.007088500016834587,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00018960004672408104,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_unit_discount_amount",
+                  "lineno": 461,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_unit_discount_amount",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00016160000814124942,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.00783930002944544,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00019699998665601015,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_min_price",
+                  "lineno": 470,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_min_price",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00016900000628083944,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.007457700034137815,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.0002046999870799482,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_discount_amount",
+                  "lineno": 479,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_discount_amount",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.0001482999650761485,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.009429200028534979,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.0001743000466376543,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_created_on",
+                  "lineno": 488,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_created_on",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014700001338496804,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.014006300014443696,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00017930002650246024,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_price",
+                  "lineno": 497,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_price",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014590000500902534,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.005995900020934641,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00016910000704228878,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_taxful_price",
+                  "lineno": 506,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_taxful_price",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.0001446999958716333,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.006659400009084493,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00018309999722987413,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_base_unit_price",
+                  "lineno": 515,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_base_unit_price",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014570000348612666,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.006196699978318065,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.000145800004247576,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_manufacturer",
+                  "lineno": 524,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_manufacturer",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.0001420000335201621,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.015174000000115484,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00023910001618787646,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_category",
+                  "lineno": 533,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_category",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00015380000695586205,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.01706390001345426,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00017279997700825334,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_product_name",
+                  "lineno": 542,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_product_name",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014560000272467732,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.006846900039818138,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00017529999604448676,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products__id",
+                  "lineno": 551,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products__id",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.0001446999958716333,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.008826200035400689,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.0001732000382617116,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_products_sku",
+                  "lineno": 560,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_products_sku",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014750001719221473,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.006333599973004311,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.0001446999958716333,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_sku",
+                  "lineno": 569,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_sku",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.0001395999570377171,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.008594899962190539,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00015670002903789282,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_taxful_total_price",
+                  "lineno": 578,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_taxful_total_price",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.0001417000312358141,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.004208999976981431,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00017630000365898013,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_taxless_total_price",
+                  "lineno": 587,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_taxless_total_price",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014430005103349686,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.0031272000051103532,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00014380004722625017,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_total_quantity",
+                  "lineno": 596,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_total_quantity",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00013960001524537802,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.0028525000088848174,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00014519999967887998,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_total_unique_products",
+                  "lineno": 605,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_total_unique_products",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.0001409000251442194,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.002547200012486428,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.0001319999573752284,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_type",
+                  "lineno": 614,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_type",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.0001379000023007393,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.0036127999774180353,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.0001637000241316855,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_user",
+                  "lineno": 623,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_user",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.0001433999859727919,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.002951200003735721,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00013230001786723733,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_event_check",
+                  "lineno": 632,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_event_check",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00013810000382363796,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.0036721000215038657,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00013529998250305653,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_geoip_country_iso_code",
+                  "lineno": 641,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_geoip_country_iso_code",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00014129996998235583,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.009250900009647012,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00029420002829283476,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_geoip_location",
+                  "lineno": 650,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_geoip_location",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00032789999386295676,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.008541999966837466,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00020190002396702766,
+                        "outcome": "passed"
+                  }
+            },
+            {
+                  "nodeid": "test_cases.py::test_geoip_continent_name",
+                  "lineno": 659,
+                  "outcome": "passed",
+                  "keywords": [
+                        "test_geoip_continent_name",
+                        "test_cases.py",
+                        "__init__.py",
+                        "Task"
+                  ],
+                  "setup": {
+                        "duration": 0.00020379998022690415,
+                        "outcome": "passed"
+                  },
+                  "call": {
+                        "duration": 0.00995330000296235,
+                        "outcome": "passed"
+                  },
+                  "teardown": {
+                        "duration": 0.00018360000103712082,
+                        "outcome": "passed"
+                  }
+            }
+      ],
+      "warnings": [
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 287
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 296
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 304
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 312
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 320
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 328
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 338
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 347
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 356
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 365
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 373
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 381
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 389
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 397
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 405
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 413
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 421
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 429
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 438
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 447
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 456
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 465
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 474
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 483
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 492
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 501
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 510
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 519
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 528
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 537
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 546
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 555
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 564
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 573
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 582
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 591
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 600
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 609
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 618
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 627
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 636
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 645
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 654
+            },
+            {
+                  "message": "\"is not\" with a literal. Did you mean \"!=\"?",
+                  "category": "SyntaxWarning",
+                  "when": "collect",
+                  "filename": "C:\\Users\\MarcoCarlesso-CIC-IT\\PycharmProjects\\Assignment\\Task\\test_cases.py",
+                  "lineno": 663
+            }
+      ]
+}
